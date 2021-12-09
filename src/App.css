@@ -5,3 +5,81 @@
     justify-content: center;
     align-items: center;
 }
+
+* {
+    background-color: #DFE1E6;
+}
+
+.card {
+    border: 3px solid #7700d5;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    width: 90vw;
+    height: 80vh;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.card-body {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-title {
+    background-color: #7700d5;
+    color: #ffff;
+    margin: initial;
+    font-size: larger;
+}
+
+.card-question {
+    margin: 30px auto;
+}
+
+.card-man {
+    padding-right: 1rem;
+}
+
+.card-woman {
+    padding-left: 1rem;
+}
+
+.card-skin-and-shirt {
+    margin: 2em auto;
+    border-top: solid 2px #96979a;
+    padding-top: 1.6rem
+}
+
+.card-skin {
+    display: flex;
+    padding-bottom: 1.5rem;
+}
+
+.card-skin > img:first-child,
+.card-shirt > img:first-child {
+    padding-right: 0.5rem;
+}
+
+.card-shirt {
+    display: flex;
+}
+
+.card-button-div {
+    display: flex;
+    align-items: center;
+}
+.card-button {
+    padding: 0.5em 1.6em;
+    font-size: 17px;
+    color: #ffff;
+    background-color: #1b39e2;
+    border: none;
+    border-radius: 45px;
+} 

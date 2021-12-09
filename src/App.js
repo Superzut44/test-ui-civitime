@@ -21,8 +21,8 @@ const App = () => {
                 <div className="card-body">
                     <p className="card-question">Lequel de ces deux avatars préférez-vous ?</p>
                     <div className="card-people">
-                        <img src={man} alt="a man"/>
-                        <img src={woman} alt="a woman"/>
+                        <img className="card-man" src={man} alt="a man"/>
+                        <img className="card-woman" src={woman} alt="a woman"/>
                     </div>
                     <div className="card-skin-and-shirt">
                         <div className="card-skin">
